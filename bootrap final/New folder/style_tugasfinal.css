@@ -1,0 +1,133 @@
+.jumbotron {
+    background-image: url("labuansah.jpg");
+    size: cover;
+    height: 640px;
+    margin-top: -70px;
+}
+
+.Workingspce {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.Workingspce h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.Workingspce h3 span {
+    font-weight: 500;
+}
+
+.Workingspce p {
+    font-size: 18px;
+    color: #0000;
+    font-weight: 200;
+    margin: 200;
+    margin: 30px 0;
+}
+
+
+/* navbar Destop version*/
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+
+/* navbar*/
+
+.jumbotron {
+    margin-top: -75px;
+}
+
+.jumbotron.display-4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 62px;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+.jumbotron .jumbotron.display-4 span {
+    font-weight: 500;
+}
+
+#news {
+    margin-top: 31px;
+    background-color: #f9f8f8;
+    padding-top: 43px;
+    padding-bottom: 25px;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.workingspce {
+    text-align: center;
+}
+
+#Profile {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("foto profil.jpg");
+    background-size: cover;
+}
+
+.box {
+    position: sticky;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%);
+    width: 600px;
+    padding: 70px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba();
+}
+
+
+/* contact section */
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
